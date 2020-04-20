@@ -19,7 +19,7 @@ test('Pottery object is created with correct properties', () => {
 
 describe('Firing the pottery in the kiln that is too hot', () => {
     beforeAll(() => {
-        piece = firePottery(piece, 2200)
+        piece = firePottery(piece, 2300)
     })
 
     test('Pottery object is cracked when temperature is above 2200', () => {
