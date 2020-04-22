@@ -50,7 +50,7 @@ describe('Do not sell cracked pottery', () => {
     let catalog = []
 
     beforeAll(() => {
-        piece = firePottery(piece, 2200)
+        piece = firePottery(piece, 2300)
         toSellOrNotToSell(piece)
         catalog = usePottery()
     })
