@@ -10,11 +10,22 @@ In this exercise, your task to build a workflow for making, and firing pottery, 
 1. Clone this project.
 1. Once the project is cloned, `cd the-hairy-potter` and then run `npm install`.
 1. Once the installations are complete, run the `npm run test` command (_see animation below_). You will see all of the tests for your code - which ones pass, and which ones fail. As soon as you make changes to your code, the tests will run automatically, so keep this terminal window open while you are working on this project. When you need to stop working on it, use the `Ctrl+C` keyboard shortcut to stop the tests from running.
-
     ![](./jest-initial.gif)
 
 
 > **Note:** All of the code for this project will be created the `src` directory of the project. Open a new terminal session, and `cd` to the project directory again. Then you can `cd src` to change to that directory in your terminal. To check what's already in the `src` directory, use the `ls` command to see its contents.
+
+## Pushing Your Code
+
+Since you cloned an official NSS repository, you don't have permissions to push code to it. What you need to do is push to your own repository. Part of this assessment includes verifying that you make a minimum of 4 commits and pushes of your code.
+
+1. Go to your Github page.
+1. Create a new repository named `hairy-potter`.
+1. Copy the connection URL _(remember to make sure you use the SSH format, not HTTPS)_.
+1. In your terminal, make sure you are currently in the project directory.
+1. Run the command: `git remote remove origin`
+1. Run the command: `git remote add origin paste_connection_url_here`
+
 
 ## Making Pottery at the Wheel
 
@@ -39,6 +50,8 @@ In the `main.js` module, invoke the `makePottery` function and provide the requi
 Also look at your terminal window that is running the tests and make sure that the `Pottery object is created with correct properties` test is passing.
 
 Once you have it working, make 5 pieces of pottery in `main.js`.
+
+**THEN PUSH YOUR CODE TO GITHUB**
 
 ## Firing the Pottery in the Kiln
 
@@ -65,6 +78,7 @@ Also look at your terminal window that is running the tests and make sure that t
 * `Pottery object is cracked when temperature is above 2200`
 * `Pottery object is uncracked when temperature is below 2200`
 
+**THEN PUSH YOUR CODE TO GITHUB**
 
 ## Pricing Uncracked Pottery
 
@@ -89,9 +103,11 @@ Also look at your terminal window that is running the tests and make sure that t
 * `In array of items to sell when uncracked`
 * `Piece has correct price`
 
+**THEN PUSH YOUR CODE TO GITHUB**
+
 ## Display the Catalog
 
-In this exercise, you are going to create HTML representations of the pottery you want to sell at the craft fair and display them on the DOM. Then you will track which ones you sell.
+Your next task is to create HTML representations of the pottery you want to sell at the craft fair and display them on the DOM. Then you will track which ones you sell.
 
 ### Define DOM Target
 
@@ -128,7 +144,7 @@ Then look at your terminal window that is running the tests and make sure that t
 
 * `Pottery is rendered to DOM`
 
-
+**THEN PUSH YOUR CODE TO GITHUB**
 
 ## Final Results
 
