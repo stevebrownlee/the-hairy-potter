@@ -131,11 +131,11 @@ Your next task is to create HTML representations of the pottery you want to sell
         </div>
     </section>
     ```
-1. Once all pottery objects have been converted to HTML representation strings, update the inner HTML of the `<article>` element with that string.
+1. The `PotteryList` function must then return a single string that contains ALL of the pottery HTML representation.
 
 #### Checking Your Work
 
-In the `main.js` module, invoke the `PotteryList` component function. Make sure your web server is running, and then visit http://localhost:8080 and you should see your uncracked pottery displayed. It should look similiar to this.
+In the `main.js` module, invoke the `PotteryList` component function. Take its return value and update the inner HTML of the article element you created above. When you start your web server, you should see your non-cracked pottery list appear (_example below_).
 
 ![example output](./pottery.png)
 
