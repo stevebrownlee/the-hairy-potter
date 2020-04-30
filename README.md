@@ -13,19 +13,7 @@ In this exercise, your task to build a workflow for making, and firing pottery, 
     ![](./jest-initial.gif)
 
 
-> **Note:** All of the code for this project will be created the `src` directory of the project. Open a new terminal session, and `cd` to the project directory again. Then you can `cd src` to change to that directory in your terminal. To check what's already in the `src` directory, use the `ls` command to see its contents.
-
-## Pushing Your Code
-
-Since you cloned an official NSS repository, you don't have permissions to push code to it. What you need to do is push to your own repository. Part of this assessment includes verifying that you make a minimum of 4 commits and pushes of your code.
-
-1. Go to your Github page.
-1. Create a new repository named `hairy-potter`.
-1. Copy the connection URL _(remember to make sure you use the SSH format, not HTTPS)_.
-1. In your terminal, make sure you are currently in the project directory.
-1. Run the command: `git remote remove origin`
-1. Run the command: `git remote add origin paste_connection_url_here`
-
+> **Note:** All of the code for this project will be created the `src` directory of the project. Open a new terminal session, and `cd` to the project directory. Then you can `cd src` to change to that directory in your terminal. To check what's already in the `src` directory, use the `ls` command to see its contents.
 
 ## Making Pottery at the Wheel
 
